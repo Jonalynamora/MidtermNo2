@@ -1,0 +1,117 @@
+  /* Custom variables */
+  :root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+}
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: var(--primary-color);
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 1rem;
+  
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Navigation styles */
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Main content styles */
+main {
+    padding: 1rem;
+    margin-top: 50px;
+    
+}
+
+/* Article styles */
+article {
+    margin-bottom: 1rem;
+}
+
+article h2 {
+    color: var(--primary-color);
+    margin-top: 1;
+}
+
+article p {
+    line-height: 1.5;
+}
+
+/* Promo styles */
+article#promo ul {
+    padding-left: 20px;
+}
+
+/* Contact styles */
+article#contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+article#contact li {
+    margin-bottom: 0.5rem;
+}
+
+/* Footer styles */
+footer {
+    background-color: var(--primary-color);
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position:relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Back to top link */
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 0;
+        margin-bottom: 0.5rem;
+    }
+}
