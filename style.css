@@ -1,10 +1,10 @@
-  /* Custom variables */
+
   :root {
     --primary-color: #3498db;
     --secondary-color: #2ecc71;
 }
 
-/* General styles */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -13,7 +13,7 @@ body {
     color: #333;
 }
 
-/* Header styles */
+
 header {
     background-color: var(--primary-color);
     color: #fff;
@@ -28,8 +28,7 @@ header {
 header h1 {
     margin: 0;
 }
-
-/* Navigation styles */
+/
 
 nav ul {
     list-style-type: none;
@@ -54,14 +53,14 @@ nav ul li a:hover {
     background-color: rgba(255, 255, 255, 0.2);
 }
 
-/* Main content styles */
+
 main {
     padding: 1rem;
     margin-top: 50px;
     
 }
 
-/* Article styles */
+
 article {
     margin-bottom: 1rem;
 }
@@ -75,12 +74,12 @@ article p {
     line-height: 1.5;
 }
 
-/* Promo styles */
+
 article#promo ul {
     padding-left: 20px;
 }
 
-/* Contact styles */
+
 article#contact ul {
     list-style: none;
     padding: 0;
@@ -90,7 +89,7 @@ article#contact li {
     margin-bottom: 0.5rem;
 }
 
-/* Footer styles */
+
 footer {
     background-color: var(--primary-color);
     color: #fff;
@@ -101,13 +100,13 @@ footer {
     width: 100%;
 }
 
-/* Back to top link */
+
 footer a {
     color: #fff;
     text-decoration: none;
 }
 
-/* Responsive styles */
+
 @media only screen and (max-width: 768px) {
     nav ul li {
         display: block;
